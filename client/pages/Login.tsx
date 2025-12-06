@@ -75,24 +75,9 @@ export const Login: React.FC = () => {
           </Button>
         </form>
 
-        {USE_MOCK_DATA && (
-          <div className="mt-6 pt-6 border-t border-slate-100 text-xs text-slate-500">
-            <p className="font-semibold mb-2">Demo Credentials:</p>
-            <div className="flex justify-between">
-                <span>Admin: admin@library.com</span>
-                <span>Pass: admin123</span>
-            </div>
-            <div className="flex justify-between mt-1">
-                <span>User: user@library.com</span>
-                <span>Pass: user123</span>
-            </div>
-            <p className="mt-4 text-center text-amber-600 bg-amber-50 p-2 rounded border border-amber-100">
-                Running in Mock Mode. No backend required.
-            </p>
-          </div>
-        )}
+        
       </div>
-      <p className="mt-8 text-slate-400 text-sm">© {new Date().getFullYear()} LibManager Systems</p>
+      <p className="mt-8 text-slate-400 text-sm">© {new Date().getFullYear()} Prabhu G All Rights Reserved.</p>
     </div>
   );
 };
